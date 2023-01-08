@@ -10,6 +10,7 @@
     "test": "vitest --watch"
   },
   "devDependencies": {
+    "@testing-library/react-hooks": "^8.0.1",
     "vite": "^4.0.0",
     "vitest": "^0.26.3"
   }
