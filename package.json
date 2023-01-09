@@ -10,6 +10,7 @@
     "test": "vitest --watch"
   },
   "devDependencies": {
+    "@testing-library/react": "^13.4.0",
     "vite": "^4.0.0",
     "vitest": "^0.26.3"
   },
