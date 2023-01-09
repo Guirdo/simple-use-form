@@ -11,6 +11,7 @@ export default defineConfig({
   },
   test: {
     reporters: ["verbose"],
-    dir: resolve(__dirname,'__test__')
+    dir: resolve(__dirname,'__test__'),
+    environment: 'happy-dom'
   }
 })
