@@ -2,7 +2,7 @@
   "name": "simple-use-form",
   "description": "A simple custom hook for managing the form state",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.5",
   "type": "module",
   "main": "main.js",
   "scripts": {
