@@ -19,7 +19,6 @@ function useForm(initialState){
   }
 
   const handleOnChange = ({target})=>{
-    console.log('Hola',target.name)
     const value = target.type === 'checkbox' ? target.checked : target.value
 
     setFormValues({
