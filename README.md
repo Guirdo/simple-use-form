@@ -4,7 +4,7 @@ A simple custom hook for managing the form state.
 
 ## Usage
 
-```
+```jsx
 import useForm from 'simple-use-form'
 
 function App() {
@@ -16,23 +16,19 @@ function App() {
   const { name, email } = formValues
 
   return (
-    <div className="App">
-      <form>
-        <input 
-          name='name'
-          value={name}
-          onChange={handleOnChange}
-        />
+    <form>
+      <input 
+        name='name'
+        value={name}
+        onChange={handleOnChange}
+      />
 
-        <input 
-          name='email'
-          value={email}
-          onChange={handleOnChange}
-        />
-      </form>
-    </div>
+      <input 
+        name='email'
+        value={email}
+        onChange={handleOnChange}
+      />
+    </form>
   )
 }
-
-
 ```
