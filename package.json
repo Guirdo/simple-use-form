@@ -1,5 +1,6 @@
 {
   "name": "simple-use-form",
+  "description": "A simple custom hook for managing the form state",
   "private": true,
   "version": "1.0.0",
   "type": "module",
