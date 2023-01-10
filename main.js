@@ -18,7 +18,17 @@ function useForm(initialState){
     setFormValues(initialState)
   }
 
-  return {formValues, updateValues, reset}
+  const handleOnChange = ({target})=>{
+    console.log('Hola',target.name)
+    const value = target.type === 'checkbox' ? target.checked : target.value
+
+    setFormValues({
+      ...formValues,
+      [target.name]: value
+    })
+  }
+
+  return {formValues, handleOnChange, updateValues, reset}
 }
 
 export default useForm
